@@ -9,6 +9,6 @@ node{
       
       def MvnHome = tool name: 'Maven', type: 'maven'
       println (MvnHome)
-      bat 'MvnHome/bin/mvn'
+      call "C:/Program Files (x86)/CloudBeesJenkinsDistribution/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin/mvn"
       }
 }      
