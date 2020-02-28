@@ -8,6 +8,6 @@ node{
   stage('Maven build'){
       
       def MvnHome = tool name: 'Maven', type: 'maven'
-      bat "%MvnHome%\bin\mvn clean install"
+      bat "%MvnHome%/bin/mvn clean install"
       }
 }      
