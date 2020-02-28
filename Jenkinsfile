@@ -8,7 +8,7 @@ node{
   stage('Maven build'){
       
       def MvnHome = tool name: 'Maven', type: 'maven'
-      echo %MvnHome%'
+      echo %MvnHome%
       bat "%MvnHome%/bin/mvn"
       }
 }      
