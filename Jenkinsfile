@@ -8,6 +8,6 @@ node{
   stage('Maven build'){
        def MvnHome = tool name: 'Maven', type: 'maven'
        
-       bat "C:/Program Files (x86)/CloudBeesJenkinsDistribution/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin/mvn clean install" 
+       bat "C:\apache-maven-3.6.3\bin\mvn clean install" 
        }
 }      
