@@ -6,6 +6,6 @@ node{
       
       }
   stage('Maven build'){
-       bat 'echo %PATH%'    
+       bat 'mvn clean install' 
        }
 }      
