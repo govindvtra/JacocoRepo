@@ -16,4 +16,5 @@ node{
                 recipientProviders: [developers(), requestor()],
                 subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}",
                 to: 'sunisaravarkey@gmail.com'
-}      
+        }      
+}
