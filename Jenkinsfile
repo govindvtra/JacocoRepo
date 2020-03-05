@@ -13,6 +13,6 @@ node{
   stage('email notif'){
     
                //emailext attachmentsPattern: '**/index.html', body: 'Find attachments', subject: 'test', to: 'sunisaravarkey@gmail.com'
-         emailext body: '${JELLY_SCRIPT,template="new-script"}', subject: 'Test Results', to: 'sunisaravarkey@gmail.com'
+         emailext body: 'di thendi', subject: 'Test Results', to: 'sunisaravarkey@gmail.com'
         }      
 }
