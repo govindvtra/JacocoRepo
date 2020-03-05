@@ -13,6 +13,6 @@ node{
   stage('email notif'){
     
                //emailext attachmentsPattern: '**/index.html', body: 'Find attachments', subject: 'test', to: 'sunisaravarkey@gmail.com'
-         emailext body: '${JELLY_SCRIPT,template="html"}', subject: 'Test Results', to: 'govindvtra@gmail.com'
+         emailext body: '${SCRIPT, template="groovy-text.template"}', subject: 'Test Results', to: 'govindvtra@gmail.com'
         }      
 }
